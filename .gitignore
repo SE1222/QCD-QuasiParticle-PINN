@@ -1,0 +1,21 @@
+# Python specific
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyCharm
+.idea/
+
+# Large Checkpoints (optional, comment out if you want to upload them)
+# GitHub has a 100MB file limit. Checkpoints might exceed this.
+*.pth
+checkpoint_*.pth
+
+# Logs (uncomment if you don't want to track logs)
+# *.txt
+# error_log.txt
+# training_log.txt
+
+# System
+.DS_Store
+Thumbs.db
